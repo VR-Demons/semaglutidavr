@@ -18,7 +18,7 @@ Material:
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
   - _ALPHABLEND_ON
-  m_LightmapFlags: 1
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
@@ -90,6 +90,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -123,10 +124,10 @@ Material:
     - _WorkflowMode: 0
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.25490192, g: 0.2156862, b: 0.6509804, a: 0.228}
-    - _Color: {r: 0.2549019, g: 0.21568617, b: 0.6509804, a: 0.228}
-    - _EmissionColor: {r: 0, g: 0.02985509, b: 0.333, a: 1}
-    - _SpecColor: {r: 0.50980395, g: 0.7803922, b: 0.8745099, a: 1}
+    - _BaseColor: {r: 0.054023, g: 0.027901383, b: 0.31132078, a: 0.228}
+    - _Color: {r: 0.054022983, g: 0.027901385, b: 0.31132075, a: 0.228}
+    - _EmissionColor: {r: 0, g: 0.012430633, b: 0.13207549, a: 1}
+    - _SpecColor: {r: 0.0075806766, g: 0, b: 0.4056604, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6058829406551913023
