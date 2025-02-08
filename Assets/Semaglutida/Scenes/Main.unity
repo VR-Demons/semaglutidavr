@@ -1032,22 +1032,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 13500120259647410, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3714142483721631443, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507149948782903559, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649303123519255290, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1091,18 +1075,6 @@ PrefabInstance:
     - target: {fileID: 6473718694533185418, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
       propertyPath: m_Name
       value: Human Body Anatomy Male
-      objectReference: {fileID: 0}
-    - target: {fileID: 6473718694533185418, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7220306244222192868, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 69fd523d3d272534e8b747eaa160195d, type: 2}
-    - target: {fileID: 8201015363428591006, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
