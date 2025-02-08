@@ -42,7 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -1023,6 +1024,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5740522604355156009, guid: b3a15d272220656488083142dbf97e67, type: 3}
   m_PrefabInstance: {fileID: 364665567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &389002896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.02690339
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.243014
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952796045791782192, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473718694533185418, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_Name
+      value: Human Body Anatomy Male
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473718694533185418, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+--- !u!1 &389002897 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6473718694533185418, guid: a51a6dcd044ff8d4abc865a7ff35eadb, type: 3}
+  m_PrefabInstance: {fileID: 389002896}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &394396598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1916,8 +1983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2d7d89889b4d94fa1f8d6fe49788e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 0}
-  m_TargetOffset: {x: 0, y: 0, z: 0}
+  m_Target: {fileID: 2779669268269126899}
+  m_TargetOffset: {x: 0, y: 0, z: 2}
   m_FollowInLocalSpace: 0
   m_ApplyTargetInLocalSpace: 0
   m_MovementSpeed: 6
@@ -5714,6 +5781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball Robot_Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 4877586757665599631, guid: ef4db2994c8da124480e682cd270a7ae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5258933315796134453, guid: ef4db2994c8da124480e682cd270a7ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8372898
@@ -5766,6 +5837,11 @@ PrefabInstance:
 --- !u!4 &1896094257 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5258933315796134453, guid: ef4db2994c8da124480e682cd270a7ae, type: 3}
+  m_PrefabInstance: {fileID: 1896094256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1896094258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4877586757665599631, guid: ef4db2994c8da124480e682cd270a7ae, type: 3}
   m_PrefabInstance: {fileID: 1896094256}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1897988846
@@ -6999,6 +7075,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8298045291338814965, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
   m_PrefabInstance: {fileID: 2779669268269126897}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2779669268269126899 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7277802327414017193, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+  m_PrefabInstance: {fileID: 2779669268269126897}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3409566788773364300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7373,7 +7454,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3409566788773364300}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1896094258}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 389002897}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &3409566789716954866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7736,3 +7841,4 @@ SceneRoots:
   - {fileID: 2046629159}
   - {fileID: 1572386643}
   - {fileID: 1350502264}
+  - {fileID: 389002896}
